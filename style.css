@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  display: block;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 500px 500px;
+}
+
+.map_assets {
+  align-content: center;
+  /* background-color: cadetblue; */
+}
+.mini_map {
+  /* background-color: aquamarine; */
+}
