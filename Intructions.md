@@ -13,7 +13,7 @@ User should be able to put grass for example and a Tree on top of that (2 layers
 Export the map in a file and import one.
 
 User can select the width and height of his map by entering two numbers.
-If the new height or width his higher than the previous, new tiles are added on the right or bottom of the map.
+If the new height or width is higher than the previous, new tiles are added on the right or bottom of the map.
 If the new height or width is lower than before, tiles disapear from the right and bottom.
 
 User can click on a tile, the tile border light up and he can select the ground (layer 1: grass or dirt) and

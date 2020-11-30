@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tile Rendering</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <title>Mini-map Editor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="map_assets">
+        <div>Layer 1</div>
+        <ul>
+          <li>Grass <img class="grass" src="./assets/grass.png" alt="" srcset="" /></li>
+          <li>Sand <img class="sand" src="./assets/sand.png" alt="" srcset="" /></li>
+        </ul>
+        <div>Layer 2</div>
+        <ul>
+          <li>Barrel: <img class="barrel" src="./assets/barrel.png" alt="" srcset="" /></li>
+          <li>Tree: <img class="tree" src="./assets/tree.png" alt="" srcset="" /></li>
+        </ul>
+      </div>
+      <div class="mini_map"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
